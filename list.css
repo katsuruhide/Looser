@@ -9,9 +9,61 @@
 }
 .issue{
     width: 100%;
+    display:inline-block;
 
 }
 .issue img{
     margin:0 10px;
 
 }
+.issue .balloon1-left {
+    position: relative;
+    top:-50px;
+    display: inline-flex;
+    padding: 7px 10px;
+    min-width: 120px;
+    max-width: 50%;
+    color: #555;
+    font-size: 16px;
+    background: #e0edff;
+  }
+  
+.issue .balloon1-left:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -20px;
+    margin-top: -15px;
+    border: 15px solid transparent;
+    border-right: 15px solid #e0edff;
+  }
+  
+.issue .balloon1-left p {
+    margin:0;
+    padding: 0;
+    }
+    .forms{
+      z-index:10;
+        position: absolute;
+        height:160px;
+        width:320px;
+        bottom:0px;
+    }
+    .forms img{
+      position:relative;
+    }
+    .forms  input{
+      position: relative;
+      top:-60px;
+      left:20px;
+  }
+  .forms  textarea{
+      position: relative;
+      top:-50px;
+      left:100px;
+  }
+  .forms  #submit{
+      position: relative;
+      top:-50px;
+      left:250px;
+  }
