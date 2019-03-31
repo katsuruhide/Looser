@@ -1,0 +1,17 @@
+
+.top{
+    width:100%;
+}
+.top #mess{
+    width:50%;
+    font-size: 12px;
+    margin:0 auto;
+}
+.issue{
+    width: 100%;
+
+}
+.issue img{
+    margin:0 10px;
+
+}
